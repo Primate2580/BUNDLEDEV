@@ -80,7 +80,21 @@ const KEYWORDS: Record<string, Record<string, string>> = {
     circle: "Uses hollow circles as the list markers.",
     square: "Uses square bullets as the list markers.",
     decimal: "Numbers the items 1, 2, 3 and so on.",
+    "lower-alpha": "Labels the items with lower-case letters: a, b, c and so on.",
+    "upper-alpha": "Labels the items with capital letters: A, B, C and so on.",
+    "lower-roman": "Labels the items with lower-case Roman numerals: i, ii, iii and so on.",
+    "upper-roman": "Labels the items with capital Roman numerals: I, II, III and so on.",
     none: "Removes the list markers.",
+  },
+  "border-collapse": {
+    separate: "Gives every table cell its own border, with a gap between neighbours, which looks like a double line.",
+    collapse: "Merges the borders of neighbouring table cells into single lines.",
+  },
+  "overflow-x": {
+    visible: "Lets content that is too wide spill out past the sides of the box.",
+    hidden: "Cuts off content that is too wide, and gives no way to reach it.",
+    auto: "Adds a sideways scrollbar only when the content is too wide for the box.",
+    scroll: "Always shows a sideways scrollbar.",
   },
   "text-transform": {
     uppercase: "Shows the text in capital letters, without changing the HTML.",
@@ -416,6 +430,7 @@ function describeFlex(value: string): string {
 
 const DYNAMIC: Record<string, (v: string, sel: string) => string> = {
   gap: (v) => `Puts ${len(v)} of space between the items, between rows and between columns.`,
+  "border-spacing": (v) => `Leaves ${len(v)} of space between table cells. It only has an effect when the borders are not collapsed.`,
   "column-gap": (v) => `Puts ${len(v)} of space between the columns.`,
   "row-gap": (v) => `Puts ${len(v)} of space between the rows.`,
   "flex-grow": (v) =>

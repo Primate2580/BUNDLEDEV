@@ -90,6 +90,12 @@ const ELEMENTS: Record<string, string> = {
   hr: "A thematic break between sections, drawn as a line.",
   figure: "A self-contained figure, such as an image with a caption.",
   figcaption: "The caption for a `figure`.",
+  caption: "The title of a table. It must be the first thing inside the table.",
+  thead: "The group of heading rows at the top of a table.",
+  tbody: "The group of main data rows in a table.",
+  tfoot: "The group of summary rows at the bottom of a table, such as totals.",
+  colgroup: "Describes the columns of a table, so a whole column can be styled.",
+  col: "Describes one column inside a column group. It has no content.",
   dl: "A description list: terms and their descriptions.",
   dt: "A term in a description list.",
   dd: "The description of a term in a description list.",
@@ -195,6 +201,14 @@ function attrText(name: string, value: string, tag: Tag): string {
       return tag.name === "ol"
         ? `Sets the style of the numbers to ${tick(value)}: \`1\` for numbers, \`a\` or \`A\` for letters, \`i\` or \`I\` for Roman numerals.`
         : `Sets the kind of ${tick(`<${tag.name}>`)} to ${tick(value)}.`;
+    case "scope":
+      return value === "col" ? "Says this heading labels the column beneath it." : value === "row" ? "Says this heading labels the cells to its right, along the row." : `Says what this heading labels: ${tick(value)}.`;
+    case "colspan":
+      return `Makes this cell stretch across ${tick(value)} columns.`;
+    case "rowspan":
+      return `Makes this cell stretch down ${tick(value)} rows.`;
+    case "tabindex":
+      return value === "0" ? "Puts this element in the keyboard tab order, so it can be focused and scrolled with the arrow keys." : `Sets the keyboard focus order to ${tick(value)}.`;
     case "start":
       return `Sets the number of the first item to ${tick(value)}. The items after it carry on from there.`;
     case "reversed":

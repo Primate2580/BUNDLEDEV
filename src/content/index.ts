@@ -49,7 +49,11 @@ export const tracks: Track[] = [
         load: () => import("./html/lists"),
         lessonCount: 23,
       }),
-      t("tables", "Tables", "beginner", "Rows, columns, headers and captions.", { prerequisites: ["lists"] }),
+      t("tables", "Tables", "beginner", "Rows, columns, headers and captions.", {
+        prerequisites: ["lists"],
+        load: () => import("./html/tables"),
+        lessonCount: 23,
+      }),
       t("basic-forms", "Basic forms", "beginner", "Inputs, labels and submitting data.", { prerequisites: ["text-and-headings"] }),
       // Intermediate
       t("semantic-layout", "Semantic layout", "intermediate", "header, nav, main, article, section, footer.", { prerequisites: ["text-and-headings", "links"] }),

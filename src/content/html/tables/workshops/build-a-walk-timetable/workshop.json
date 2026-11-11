@@ -1,0 +1,11 @@
+{
+  "id": "build-a-walk-timetable",
+  "title": "Workshop: build a walk timetable",
+  "summary": "Turn plain lines of text into a full table: a heading row, data rows, sections, scopes, row headings, a caption, a footer with a spanning cell, a column group, a scrolling wrapper and some style.",
+  "minutes": 32,
+  "mode": "html",
+  "files": [
+    "html"
+  ],
+  "intro": "a timetable of walks. At the start it is only a few lines of plain text, so the browser runs them together. One layer at a time, you will add a heading row, the data rows, thead and tbody sections, column and row scopes, a caption, a footer with a cell that spans three columns, a column group, a scrolling wrapper for small screens, and a little CSS. Keep the preview open and watch the grid take shape."
+}
