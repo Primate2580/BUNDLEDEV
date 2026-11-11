@@ -1,0 +1,18 @@
+body { margin: 0; font-family: system-ui, sans-serif; }
+
+.site-header {
+  padding: 16px 24px;
+  background: #1e1b4b;
+  color: white;
+}
+
+.site-header a {
+  color: white;
+  text-decoration: none;
+}
+
+.cta {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #6366f1;
+}

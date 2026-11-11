@@ -1,0 +1,15 @@
+{
+  "id": "build-a-lively-trail-page",
+  "title": "Workshop: build a lively trail page",
+  "summary": "Add transitions to a navigation bar, buttons, cards, an image zoom and an accordion, then respect reduced motion.",
+  "minutes": 35,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "a trail guide page with a navigation bar, three route cards and a collapsible question. The HTML and the base styling are already written (see the html tab), but nothing moves smoothly yet. Each step adds one transition: link colours and underlines, a responsive button, a card that lifts with a staggered delay, an image zoom, an accordion that folds open on a grid row, and an arrow that turns. The last step respects `prefers-reduced-motion`. The checks read the transition properties on the base rules, because hover and checked states cannot be read automatically. Try each effect in the preview as you go."
+}

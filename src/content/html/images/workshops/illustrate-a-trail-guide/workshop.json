@@ -1,0 +1,11 @@
+{
+  "id": "illustrate-a-trail-guide",
+  "title": "Workshop: illustrate a trail guide",
+  "summary": "Add images to a walk guide step by step: a hero with alt, size and priority, a captioned figure, a decorative divider, lazy gallery pictures, a linked logo and an inline SVG icon.",
+  "minutes": 30,
+  "mode": "html",
+  "files": [
+    "html"
+  ],
+  "intro": "a walk guide with its words in place and no pictures yet. The image files do not exist in the Playground, so each picture shows its alt text, which is a useful preview of what a screen reader says. One step at a time, you will add a hero image with alt, dimensions and priority, a bridge picture inside a figure with a caption, a decorative divider with an empty alt, two lazy gallery pictures, a linked logo, an inline SVG icon in a button, and finally dimensions for every image."
+}

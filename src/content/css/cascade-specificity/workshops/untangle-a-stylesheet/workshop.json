@@ -1,0 +1,15 @@
+{
+  "id": "untangle-a-stylesheet",
+  "title": "Workshop: untangle a stylesheet",
+  "summary": "Replace ID chains, a loaded !important and fragile selectors with flat single classes, one rule at a time.",
+  "minutes": 30,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "a small pricing card with a stylesheet that works but is tangled: every rule hangs off the `#app` ID, there is a rogue `!important`, and the featured style depends on `:first-child`. The HTML already carries sensible classes (see the html tab). In each step you replace one heavy selector with a single class and change one value, so the new rule is the only one that applies. By the end, nothing in the stylesheet is heavier than `(0, 1, 0)`."
+}

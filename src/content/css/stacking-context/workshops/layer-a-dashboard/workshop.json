@@ -1,0 +1,15 @@
+{
+  "id": "layer-a-dashboard",
+  "title": "Workshop: layer a dashboard",
+  "summary": "Give a sticky header, cards, a menu, a back-to-top link, an overlay, a modal and a toast their layers, with isolation and a small z-index scale.",
+  "minutes": 30,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "a small trail dashboard with a header, a dropdown menu, a grid of cards with labels, a back-to-top link, a modal with an overlay and a toast message. The HTML is written (see the html tab), and the styling is flat: nothing is layered. Step by step you give each part its position and level, using a short scale (100, 200, 300, 400), local numbers inside components, `isolation: isolate` for the page content, and you remove a transform hack that was quietly breaking `position: fixed`. The preview cannot scroll or overlap on demand, so the checks read declared values: scroll and click in the preview to see each effect."
+}

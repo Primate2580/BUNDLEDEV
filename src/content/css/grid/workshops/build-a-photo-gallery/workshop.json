@@ -1,0 +1,16 @@
+{
+  "id": "build-a-photo-gallery",
+  "title": "Workshop: build a photo gallery",
+  "summary": "Lay out a gallery with columns, spanning tiles and dense packing.",
+  "minutes": 25,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "canvas": "dark",
+  "intro": "a gallery of tiles with one big featured tile. The HTML is already written (see the html tab). You will lay it out with CSS Grid, from the first column to the finishing touches."
+}

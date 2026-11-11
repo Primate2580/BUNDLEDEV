@@ -1,0 +1,15 @@
+{
+  "id": "build-an-article-page",
+  "title": "Workshop: build an article page",
+  "summary": "Pin a header, a sidebar, a floating button and a banner, and layer a tag and caption over a photo.",
+  "minutes": 28,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "an article page with a sticky header and contents list, a photo with a tag and caption laid over it, a floating button and a cookie banner. The HTML is already written (see the html tab). Each step uses one positioning value, and the preview scrolls so you can see them work."
+}

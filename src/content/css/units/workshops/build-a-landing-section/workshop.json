@@ -1,0 +1,15 @@
+{
+  "id": "build-a-landing-section",
+  "title": "Workshop: build a landing section",
+  "summary": "Size a hero and a row of cards step by step, choosing rem, em, ch, vh and px for the right jobs.",
+  "minutes": 26,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "a landing section with a full-height hero, a button and a row of feature cards. The HTML is already written (see the html tab). Each step uses a different unit for a reason: `rem` for text and spacing, `em` inside the button, `ch` for line length, `vh` for the hero and `px` for fine details."
+}

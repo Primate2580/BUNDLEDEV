@@ -1,0 +1,11 @@
+{
+  "id": "build-a-trail-directory",
+  "title": "Workshop: build a trail directory",
+  "summary": "Turn the plain mentions on a park directory page into real links: relative and absolute, in a new tab, within the page, to another page's section, and to email, phone and a file.",
+  "minutes": 28,
+  "mode": "html",
+  "files": [
+    "html"
+  ],
+  "intro": "a small directory page for a park. At the start it has headings and paragraphs, but no links, so every mention of another page is plain text. One link at a time, you will add a relative page link, a link into a folder, an external link that opens in a new tab, ids and jump links within the page, a link to another page's section, clearer link text, and links for email, phone and a file download. Keep the preview open and check each link's address."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "bring-a-page-to-life",
+  "title": "Workshop: bring a page to life",
+  "summary": "Spin a loader, fade and stagger content in, pulse a button, flip a card in 3D, and respect reduced motion.",
+  "minutes": 35,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "a small landing page with a loading ring, a title, a tagline, a list, a card that will flip, and a button. The HTML and the styling are done (look at the html tab), but nothing moves yet. In each step you will write a little CSS and see something come alive: a spinner, an entrance, a stagger, a pulse, a flip. The checks read the animation and transform properties you write, so keep the preview open and look at each effect as you add it. Hovering and animations are easiest to judge by eye, so keep the preview open as you go. The checks read the declared values."
+}

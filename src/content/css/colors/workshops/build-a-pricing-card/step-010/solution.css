@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 32px;
+  font-family: system-ui, sans-serif;
+  background-color: #f1f5f9;
+}
+
+.plan {
+  width: 300px;
+  padding: 24px;
+  border: 2px solid;
+  border-radius: 16px;
+  background-color: #ffffff;
+  color: #0f172a;
+  border-color: #4f46e5;
+  box-shadow: 0 12px 32px rgb(79 70 229 / 0.25);
+}
+
+.badge {
+  display: inline-block;
+  margin: 0 0 12px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: rgb(79 70 229 / 0.12);
+  color: #4338ca;
+}
+
+.plan-name {
+  margin: 0 0 4px;
+}
+
+.price {
+  margin: 0 0 12px;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.per {
+  font-size: 14px;
+  font-weight: 400;
+  color: hsl(215 16% 47%);
+}
+
+.blurb {
+  margin: 0 0 16px;
+  color: #475569;
+}
+
+.features {
+  margin: 0 0 20px;
+  padding-left: 20px;
+  color: darkslategray;
+}
+
+.cta {
+  display: block;
+  padding: 12px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #4f46e5;
+  color: white;
+}
+
+.cta-ghost {
+  margin-top: 10px;
+  background-color: transparent;
+  color: #4f46e5;
+  border-color: #4f46e5;
+}
+
+.fine-print {
+  margin: 14px 0 0;
+  font-size: 13px;
+  text-align: center;
+}

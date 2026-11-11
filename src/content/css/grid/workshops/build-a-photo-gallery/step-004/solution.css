@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: system-ui, sans-serif;
+  background: #0f172a;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  grid-auto-rows: 120px;
+}
+
+.tile {
+  background: #4f46e5;
+  color: white;
+  font-weight: 700;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.featured {
+  background: #7c3aed;
+}

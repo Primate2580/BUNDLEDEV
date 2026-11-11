@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+:root {
+  --brand: #4f46e5;
+  --bg: #f8fafc;
+  --surface: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+}
+
+.app {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.page {
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.heading {
+  margin: 0 0 1rem;
+  font-size: 1.6rem;
+}
+
+.cards {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 0.75rem;
+  background-color: var(--surface);
+  box-shadow: 0 4px 12px rgb(15 23 42 / 0.15);
+}
+
+.title {
+  margin: 0 0 0.25rem;
+  color: var(--brand);
+  font-size: 1.1rem;
+}
+
+.text {
+  margin: 0 0 1rem;
+  color: var(--muted);
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 0.75rem;
+  background-color: var(--brand);
+  color: #ffffff;
+  font: inherit;
+  font-weight: 600;
+}

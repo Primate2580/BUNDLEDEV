@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  color: #1e1b4b;
+}
+
+.intro {
+  font-style: italic;
+}
+
+h2 {
+  color: #4338ca;
+}
+
+.ingredient {
+  list-style-type: square;
+}
+
+.ingredient.optional {
+  color: #6b7280;
+}
+
+.recipe > p {
+  margin-bottom: 12px;
+}
+
+h2 + p {
+  font-weight: 600;
+}

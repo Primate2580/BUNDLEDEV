@@ -1,0 +1,28 @@
+body { margin: 0; font-family: system-ui, sans-serif; }
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 64px;
+  padding: 16px 24px;
+  background: #1e1b4b;
+  color: white;
+}
+
+.site-header a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  gap: 24px;
+}
+
+.cta {
+  flex-shrink: 0;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #6366f1;
+}

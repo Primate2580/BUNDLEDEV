@@ -1,0 +1,15 @@
+{
+  "id": "build-a-responsive-landing",
+  "title": "Workshop: build a responsive landing page",
+  "summary": "Build a landing page mobile first, adding queries for width, hover, dark mode, reduced motion and print.",
+  "minutes": 30,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "a landing page with a header, a hero, four route cards and a footer. The HTML is already written (see the html tab). You write the small-screen layout first, then add media queries one at a time. The checks cover the base styles. The media rules themselves can't be checked automatically, so use the Phone, Tablet and Full width buttons to see each one work."
+}

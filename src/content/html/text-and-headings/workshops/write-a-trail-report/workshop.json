@@ -1,0 +1,11 @@
+{
+  "id": "write-a-trail-report",
+  "title": "Workshop: write a trail report",
+  "summary": "Turn a block of plain text into a well-marked-up report: headings, paragraphs, emphasis, a quotation, an abbreviation, entities, an address and a French greeting.",
+  "minutes": 30,
+  "mode": "html",
+  "files": [
+    "html"
+  ],
+  "intro": "a short trail report. At the start, it is nothing but plain lines of text inside a complete page, so the browser shows one unbroken block. One small step at a time, you will mark up the title, the date, the paragraphs, two headings, the important and stressed words, an abbreviation, a quotation with its source, a superscript, a few entities, an address, a French phrase and the fine print. Keep the preview open and watch the page gain structure."
+}

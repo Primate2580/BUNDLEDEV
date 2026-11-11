@@ -1,0 +1,15 @@
+{
+  "id": "build-a-blog-post",
+  "title": "Workshop: build a blog post",
+  "summary": "Style an article step by step: font stack, rem sizes, line height, column width, hierarchy, spacing and details.",
+  "minutes": 28,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "a readable blog post with a title, byline, introduction, section headings, a pull quote, inline code and a footnote. The HTML is already written (see the html tab). Each step adds a few typography settings, and the page gets steadily easier to read."
+}

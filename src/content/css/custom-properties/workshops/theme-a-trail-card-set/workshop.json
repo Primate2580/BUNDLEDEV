@@ -1,0 +1,15 @@
+{
+  "id": "theme-a-trail-card-set",
+  "title": "Workshop: theme a trail card set",
+  "summary": "Name colours, spacing, radius and shadow, add button settings and a variant, override a value locally, build a dark theme, and make the grid and the motion respond.",
+  "minutes": 35,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "a trail page with a heading, three cards and some buttons. The HTML is written, with `data-theme=\"dark\"` already on the wrapper (look at the html tab), and the CSS works, but every colour, spacing, radius and shadow is typed out where it is used. Step by step you will turn those repeated values into custom properties, give the button settings with fallbacks, override a value on one card, write a dark theme that needs no change to any component, and let a media query change the grid and the animation speed. Keep the preview open and compare it after every step: most of them should look exactly the same, which is how you know the tokens are doing their job."
+}

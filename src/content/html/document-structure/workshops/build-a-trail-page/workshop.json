@@ -1,0 +1,11 @@
+{
+  "id": "build-a-trail-page",
+  "title": "Workshop: build a trail guide page",
+  "summary": "Build a real web page from an empty file, one small step at a time.",
+  "minutes": 25,
+  "mode": "html",
+  "files": [
+    "html"
+  ],
+  "intro": "a small trail guide page. It's a complete HTML document with a head, a heading, a list of trails that link to a section further down, and an image. Every step is one small change, and your code is checked as you go."
+}

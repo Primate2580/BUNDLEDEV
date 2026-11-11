@@ -1,0 +1,15 @@
+{
+  "id": "build-a-recipe-page",
+  "title": "Workshop: style a recipe page with selectors",
+  "summary": "Pick exactly the elements you mean, using ten kinds of selector.",
+  "minutes": 25,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "a recipe card. The HTML is already written (see the html tab). Each step adds one rule with a different kind of selector, so by the end you will have used type, class, id, attribute, child and sibling selectors."
+}

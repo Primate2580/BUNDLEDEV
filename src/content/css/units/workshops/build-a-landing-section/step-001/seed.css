@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  background-color: #e0e7ff;
+}
+
+.hero-inner {
+  margin: 0 auto;
+}
+
+.hero-title {
+  margin: 0 0 0.5rem;
+}
+
+.hero-text {
+  margin: 0 0 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background-color: #f8fafc;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.feature-title {
+  margin: 0;
+}
+
+.feature-text {
+  margin: 0;
+}

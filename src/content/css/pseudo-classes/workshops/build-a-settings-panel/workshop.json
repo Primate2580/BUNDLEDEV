@@ -1,0 +1,15 @@
+{
+  "id": "build-a-settings-panel",
+  "title": "Workshop: build a settings panel",
+  "summary": "Style a settings panel with structural, form-state, link and focus pseudo-classes, plus generated content and counters.",
+  "minutes": 30,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "a settings panel with a list of checkboxes, an email form and a help link. The HTML is already written (see the html tab). Every step uses a pseudo-class or a pseudo-element: structural selectors for dividers and stripes, `:checked` and `:disabled` for the form, `:hover` and `:focus-visible` for interaction, and `::before`, `::after`, `::selection` and counters for generated content. Checks cover the parts that can be checked automatically, and you can see the rest in the preview."
+}

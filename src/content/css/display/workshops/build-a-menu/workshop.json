@@ -1,0 +1,15 @@
+{
+  "id": "build-a-menu",
+  "title": "Workshop: build a horizontal menu",
+  "summary": "Turn a stacked list into a menu, and learn what each display value really does.",
+  "minutes": 25,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "a horizontal navigation menu. The HTML is a plain list of links (see the html tab). Each step changes one `display` value or a property that depends on it, so you can see exactly what block, inline, inline-block, flex and none do."
+}

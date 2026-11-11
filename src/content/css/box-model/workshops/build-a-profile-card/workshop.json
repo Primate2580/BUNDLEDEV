@@ -1,0 +1,15 @@
+{
+  "id": "build-a-profile-card",
+  "title": "Workshop: build a profile card",
+  "summary": "Style a card layer by layer: width, padding, border, margin and box-sizing.",
+  "minutes": 25,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "a profile card. The HTML is already written (see the html tab). You will add the box-model layers one at a time: size, padding, border, margin, and the sizing rule that ties them together."
+}

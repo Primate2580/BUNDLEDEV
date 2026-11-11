@@ -1,0 +1,15 @@
+{
+  "id": "build-a-nav-bar",
+  "title": "Workshop: build a navigation bar",
+  "summary": "Lay out a real site header with flexbox, one property at a time.",
+  "minutes": 25,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "a site header with a logo, a row of links and a sign-up button. The HTML is already written (you can read it in the html tab). Your job is to lay it out with flexbox, one property at a time."
+}

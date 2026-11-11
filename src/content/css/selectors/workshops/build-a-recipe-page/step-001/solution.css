@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  padding: 24px;
+  font-family: system-ui, sans-serif;
+}
+
+h1 {
+  color: #1e1b4b;
+}

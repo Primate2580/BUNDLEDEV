@@ -1,0 +1,11 @@
+{
+  "id": "build-a-day-out-guide",
+  "title": "Workshop: build a day-out guide",
+  "summary": "Turn the plain lines of a walk guide into real lists: a packing list with a nested list, numbered directions, a continued list, a glossary and a menu of links.",
+  "minutes": 28,
+  "mode": "html",
+  "files": [
+    "html"
+  ],
+  "intro": "a day-out guide for a walk. At the start, every list is plain lines of text, so the browser runs them together. One step at a time, you will add an unordered packing list with a nested list, numbered directions, a numbered list that continues from them, a description list for a glossary, a menu of links inside a nav, a link inside a list item, and a small rule that removes the bullets from the menu."
+}

@@ -1,0 +1,15 @@
+{
+  "id": "build-a-pricing-card",
+  "title": "Workshop: build a pricing card",
+  "summary": "Colour a card step by step, using a different notation each time: hex, rgb() with alpha, hsl(), names and transparent.",
+  "minutes": 25,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "a pricing card with a badge, a price, a feature list and two buttons. The HTML is already written (see the html tab). Each step adds one or two colours, and the notation changes as you go: hex, `rgb()` with alpha, `hsl()`, a named colour and `transparent`."
+}

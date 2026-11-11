@@ -1,0 +1,15 @@
+{
+  "id": "build-a-product-card",
+  "title": "Workshop: build a product card",
+  "summary": "Frame, round, fill and light a product card step by step: borders, radius, gradients, layered backgrounds, shadows and focus rings.",
+  "minutes": 28,
+  "mode": "css",
+  "files": [
+    "css",
+    "html"
+  ],
+  "readOnly": [
+    "html"
+  ],
+  "intro": "a product card with a gradient image area, a badge, a button and a footer. The HTML is already written (see the html tab). Each step adds one edge or background treatment: a border, rounded corners, gradients, a dotted layer, shadows, a divider and a focus ring."
+}

@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.6;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  background-color: #e0e7ff;
+  min-height: 60vh;
+}
+
+.hero-inner {
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 2rem;
+}
+
+.hero-title {
+  margin: 0 0 0.5rem;
+  font-size: 2.5rem;
+}
+
+.hero-text {
+  margin: 0 0 1.5rem;
+  max-width: 36ch;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #4f46e5;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background-color: #f8fafc;
+}
+
+.icon {
+  display: inline-block;
+}
+
+.feature-title {
+  margin: 0;
+}
+
+.feature-text {
+  margin: 0;
+}
