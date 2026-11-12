@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Book a walk</title>
+  </head>
+  <body>
+    <h1>Book a walk</h1>
+    <p>Fill in the form to reserve a place.</p>
+    <form action="/book" method="post">
+      <p>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required autocomplete="name">
+      </p>
+      <p>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required autocomplete="email">
+      </p>
+      <p>
+        <label for="walk">Which walk?</label>
+        <select id="walk" name="walk">
+          <option value="mill-creek">Mill Creek</option>
+          <option value="ridge-trail">Ridge Trail</option>
+          <option value="heron-lake">Heron Lake</option>
+        </select>
+      </p>
+      <fieldset>
+        <legend>Group size</legend>
+        <input type="radio" id="small" name="size" value="small" checked>
+        <label for="small">Small (1 to 4)</label>
+        <input type="radio" id="large" name="size" value="large">
+        <label for="large">Large (5 or more)</label>
+      </fieldset>
+      <p>
+        <label for="notes">Anything we should know?</label>
+        <textarea id="notes" name="notes"></textarea>
+      </p>
+      <button type="submit">Send</button>
+    </form>
+  </body>
+</html>

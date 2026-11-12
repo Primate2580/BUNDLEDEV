@@ -96,6 +96,8 @@ const ELEMENTS: Record<string, string> = {
   tfoot: "The group of summary rows at the bottom of a table, such as totals.",
   colgroup: "Describes the columns of a table, so a whole column can be styled.",
   col: "Describes one column inside a column group. It has no content.",
+  fieldset: "Groups related form controls, so assistive tools can announce the group together with each control.",
+  legend: "The name of a fieldset. It must be the first thing inside the fieldset.",
   dl: "A description list: terms and their descriptions.",
   dt: "A term in a description list.",
   dd: "The description of a term in a description list.",

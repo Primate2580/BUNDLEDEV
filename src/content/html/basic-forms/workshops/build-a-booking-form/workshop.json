@@ -1,0 +1,11 @@
+{
+  "id": "build-a-booking-form",
+  "title": "Workshop: build a booking form",
+  "summary": "Turn the plain lines of a booking page into a full form: text and email fields, a menu, a group of radio buttons, a text area, a button, required fields, autocomplete, a checkbox and some layout.",
+  "minutes": 34,
+  "mode": "html",
+  "files": [
+    "html"
+  ],
+  "intro": "a booking form for a walk. At the start it is only plain text, so the browser shows no controls. One step at a time, you will add the form element, a name field, an email field, a menu of walks, a group of radio buttons in a fieldset, a text area, a submit button, required fields, autocomplete values, a checkbox, a placeholder and a few lines of layout. Keep the preview open, and try each control as you add it."
+}

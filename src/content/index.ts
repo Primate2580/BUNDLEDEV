@@ -54,7 +54,11 @@ export const tracks: Track[] = [
         load: () => import("./html/tables"),
         lessonCount: 23,
       }),
-      t("basic-forms", "Basic forms", "beginner", "Inputs, labels and submitting data.", { prerequisites: ["text-and-headings"] }),
+      t("basic-forms", "Basic forms", "beginner", "Inputs, labels and submitting data.", {
+        prerequisites: ["text-and-headings"],
+        load: () => import("./html/basic-forms"),
+        lessonCount: 23,
+      }),
       // Intermediate
       t("semantic-layout", "Semantic layout", "intermediate", "header, nav, main, article, section, footer.", { prerequisites: ["text-and-headings", "links"] }),
       t("form-controls", "Form controls and validation", "intermediate", "Input types and built-in validation.", { prerequisites: ["basic-forms"] }),
